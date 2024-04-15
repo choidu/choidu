@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>choidu</title>
+      <meta charset="utf-8">
+      <link href="indexstyle.css" rel="stylesheet">
+      <link rel="icon" href="https://github.com/choidu/site/assets/121925236/d25b3075-8d73-40aa-aa76-6a89215b0f46" type="image/x-icon">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h2>CHOI JUHEE</h2>
+        <button id="randomcolor">color change</button>
+        <!-- <br>
+        <a class="text-field" href="button.html">버튼으로 이동</a>&nbsp;&nbsp;
+        <a class="text-field" href="help.html">도움창으로 이동</a>&nbsp;&nbsp;
+        <a class="text-field" href="login.html">로그인페이지로 이동</a>
+        <a class="text-field" href="image.html">갤러리</a> -->
+      </header>
+      <h2 id="clock">00:00:00</h2>
+        <div class="navFootM">
+          <div class="navFootMIn">
+            <div class="btnFootNavWrap" id="btnFootNavWrap">
+              <button class="btnFootNav footHome" value="HOME">HOME</button>
+              <button class="btnFootNav footlogin" value="login">login</button>
+              <button class="btnFootNav foothelp" value="help">help</button>
+              <button class="btnFootNav footimage" value="image">image</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?" />
+        <button>Log In</button>
+      </form>
+
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required/>
+      </form>
+      <ul id="todo-list"></ul>
+    
+    <script src="index.js"></script>
+    <script src='button.js'></script>
+    <script src="todo.js"></script>
+    <script src="login.js"></script>
+    <script src="weather.js"></script>
+    <script src="background.js"></script>
+  </body>
+</html>
