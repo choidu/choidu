@@ -17,6 +17,10 @@ header {
   font-size: large;
 }
 
+nav {
+  text-align: center;
+}
+
 img {
   height: 50vh;
 }
