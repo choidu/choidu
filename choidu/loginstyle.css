@@ -24,7 +24,7 @@ nav {
 .container {
     background-color: #fff;
     width: 100%;
-    margin: 0 auto;
+    margin: 10px;
     border-radius: 40px;
     position: relative;
 }
