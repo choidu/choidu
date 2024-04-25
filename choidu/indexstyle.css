@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-family: "Do Hyeon", sans-serif;
   font-style: normal;
-}
+  }
 
 body {
   height: 100%;
@@ -25,9 +25,9 @@ h2 {
 }
 
 img {
-   height: 50vh;
-   display: block;
-   margin: 0 auto;
+  height: 50vh;
+  display: block;
+  margin: 0 auto;
 }
 
 .text-field {
