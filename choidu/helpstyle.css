@@ -5,24 +5,13 @@ body {
   background-color: #FDE4FF;
 }
 
-/*
-.navFootM {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 100;
-  }
+header {
+  margin-top: 0;
+  height: 10vh;
+  text-align: center;
+  font-size: large;
+}
 
-  .navFootMIn {
-    position: relative;
-    height: 80px;
-    background-color: bisque;
-    background-size: auto 150px;
-  }
-  
-  .navFootNavWrap{
-    display: flex;
-    padding: 17px 0 0 0;
-  }
-  */
+nav {
+  text-align: center;
+}
