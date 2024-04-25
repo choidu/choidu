@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Do Hyeon", sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -16,28 +15,20 @@ header {
   margin-top: 0;
   height: 10vh;
   text-align: center;
+  background-image: url("logo/choidu_title.png");
   font-size: large;
 }
 
-nav {
-  text-align: center;
+h2 {
+  margin-top: 0;
+  font-weight: 400;
 }
 
 img {
   height: 50vh;
 }
 
-.main-form {
-  padding: 20px;
-    background-color: #EEEFF1;
-    width: 300px;
-    display: block;
-    margin: 50px auto auto auto;
-    border-radius: 5px;
-
-  }
-
-  .text-field {
+.text-field {
     font-size: 14px;
     border-style: none;
     padding: 10px;
@@ -47,26 +38,6 @@ img {
       color: #9B9B9B;
   }
 
-  .hidden {
-    display: none;
-  }
-/*
-  .navFootM {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 100;
-  }
-
-  .navFootMIn {
-    position: relative;
-    height: 80px;
-    background-color: bisque;
-    background-size: auto 150px;
-  }
-  .navFootNavWrap{
-    display: flex;
     padding: 17px 0 0 0;
   }
   */
