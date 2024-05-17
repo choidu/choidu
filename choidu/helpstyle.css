@@ -12,11 +12,21 @@ body {
 }
 
 header {
-  height: 15vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+  background-color: rgb(255 255 255 / 70%);
+  backdrop-filter: blur(10px);
+  left: 0;
+  top: 0;
   text-align: center;
-  font-size: large;
-  background-image: url("logo/choidu_title.png");
-  background-size: auto;
+  box-shadow: 0 1px 30px rgba(240, 237, 233, 0.596);
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#main {
+  margin-top: 30vh;
 }
 
 h2 {
@@ -24,12 +34,29 @@ h2 {
   font-weight: 400;
 }
 
+#clock {
+  text-align: center;
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .text-field {
-    font-size: 14px;
-    border-style: none;
-    padding: 10px;
-     margin-bottom: 10px;
-      border-radius: 5px;
-      width: 260px;
-      color: black;
+  display: inline;
+  border-radius: 5px;
+  margin: 5px;
+  background: salmon 50%;
+  font-family: 'SebangGothic';
+  font-weight: 400;
+  font-size: 14px;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  color: black;
   }
+
+  nav{
+    margin-bottom: 10px;
+  }
+  
