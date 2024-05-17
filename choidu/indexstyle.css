@@ -1,27 +1,29 @@
-* {
-  box-sizing: border-box;
-  font-family: "Do Hyeon", sans-serif;
-  font-style: normal;
-  }
-
-body {
-  height: 100%;
+header {
   width: 100%;
-  margin: 0;
+  position: fixed;
+  z-index: 100000;
+  background-color: rgb(255 255 255 / 70%);
+  backdrop-filter: blur(10px);
+  left: 0;
+  top: 0;
+  text-align: center;
+  box-shadow: 0 1px 30px rgba(240, 237, 233, 0.596);
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+body{
   background-color: #FDE4FF;
 }
 
-header {
-  height: 15vh;
-  top: 0px;
-  text-align: center;
-  font-size: large;
-  background-image: url("logo/choidu_title.png");
-  background-size: auto;
+#main{
+  margin-top: 25vh;
 }
 
-div1 {
-  margin-top: 15vh;
+ul{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -29,20 +31,23 @@ h2 {
   font-weight: 400;
 }
 
-img {
-  height: 50vh;
-  display: block;
-  margin: 0 auto;
-}
-
 .text-field {
-    font-size: 14px;
-    border-style: none;
-    padding: 10px;
+  display: inline;
+  border-radius: 5px;
+  margin: 5px;
+  background: salmon 50%;
+  font-family: 'SebangGothic';
+  font-weight: 400;
+  font-size: 14px;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  color: black;
+  }
+
+  nav{
     margin-bottom: 10px;
-    border-radius: 5px;
-    width: 260px;
-    color: black;
   }
 
   #clock {
@@ -50,4 +55,19 @@ img {
     font-size: large;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  footer{
+    text-align: center;
+    color: #999;
+    list-style-type: none;
+  }
+
+  footer ul{
+    list-style-type: none;
+  }
+
+  .flower_2{
+    margin-left: 100px;
+    margin-right: 100px;
   }
